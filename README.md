@@ -27,7 +27,7 @@ A private network link between two VPCs that allows resources to communicate usi
 ## Deployment Steps
 
 Full deployment instructions:  
-See full deployment instructions [here](docs/deployment-steps.md).
+See full deployment instructions [here](docs/deployment-steps.md)
 
 ---
 
@@ -38,9 +38,9 @@ hybrid-cloud-integration/
 ├── docs/
 │ ├── deployment-steps.md 
 │ └── screenshots/
-│ ├── server1.png 
-│ ├── server2.png 
-│ └── architecture.png # Architecture diagram
+│ 	├── server1.png 
+│ 	├── server2.png 
+│ 	└── architecture.png # Architecture diagram
 ├── README.md 
 └── LICENSE 
 ```
