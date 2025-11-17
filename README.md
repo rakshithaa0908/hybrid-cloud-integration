@@ -27,7 +27,7 @@ A private network link between two VPCs that allows resources to communicate usi
 ## Deployment Steps
 
 Full deployment instructions:  
-[See deployment-steps.md](deployment-steps.md)
+See full deployment instructions [here](docs/deployment-steps.md).
 
 ---
 
@@ -50,17 +50,17 @@ hybrid-cloud-integration/
 ## Architecture Diagram
 
 **Hybrid Cloud Integration – VPC Peering Architecture**  
-![VPC Peering Architecture](screenshots/architecture.png)
+![VPC Peering Architecture](docs/screenshots/architecture.png)
 
 ---
 
 ## Screenshots
 
 **Server 1 (N. Virginia)**  
-![Server1](screenshots/server1.png)
+![Server1](docs/screenshots/server1.png)
 
 **Server 2 (Mumbai)**  
-![Server2](screenshots/server2.png)
+![Server2](docs/screenshots/server2.png)
 
 ---
 
