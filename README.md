@@ -1,6 +1,6 @@
-# Hybrid Cloud Integration
+# Hybrid Cloud Integration Using VPC Peering
 
-This project demonstrates how to connect two AWS VPCs across regions using VPC peering. The setup enables private communication between EC2 instances without exposing traffic to the internet. The guide includes concepts, architecture, deployment steps, and screenshots.
+This project demonstrates how to privately connect EC2 instances across two AWS VPCs in different regions using VPC peering.
 
 ---
 
