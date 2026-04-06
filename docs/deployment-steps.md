@@ -31,7 +31,7 @@ This document provides the full deployment process for building two VPCs in diff
 - VPC: `myvpc1`
 - Subnet: `mysubnet1`
 - Auto assign public IP: enabled
-- Security group: allow all traffic
+- Security group: Allow all traffic ⚠️ For demo purposes only — restrict in production
 - Key pair: `mykey1`
 
 ---
@@ -102,11 +102,16 @@ Add route:
 ## 5. Verify Connectivity
 
 ### SSH into either EC2 server and run:
-sudo su -
-ping <PRIVATE-IP-OF-OTHER-SERVER>
-
-Example: ping 10.0.0.242
+```
+$ sudo su -
+$ ping <PRIVATE-IP-OF-OTHER-SERVER>
+```
+Example:
+```
+$ ping 10.0.0.242
+```
 
 If the setup is correct, the ping will return responses.
 
 ---
+> ✅ Deployment complete. Both EC2 instances are now privately connected across regions via VPC Peering.
